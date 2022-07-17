@@ -1,0 +1,108 @@
+body {
+    --accent-color: #48898c;
+    --text: #4c4c4c;
+    block-size: border-box;
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.left-column {
+    background-color: #bab8b9;
+    color: var(--text);
+}
+
+.block {
+    margin: 3rem 0;
+}
+
+.block > .title {
+    font-size: 1.2rem;
+    margin-bottom: .3em;
+    color: var(--accent-color);
+}
+
+
+.text {
+    padding: 1rem;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--accent-color);
+    line-height: 0.9;
+    margin-bottom: .1em;
+}
+
+.occupation {
+    color: #6f6f6f;
+}
+
+.right-column {
+    flex-grow: 1;
+    margin: 2rem;
+}
+
+.intro {
+    color: var(--text);
+}
+
+.accent {
+    color: var(--accent-color)
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+}
+
+.link {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.work {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.work .period {
+    min-width: 20ch;
+}
+
+.work .work-description .work-title {
+    font-size: 0.8rem;
+    color: var(--text);
+}
+
+.work .work-description .duty {
+    margin-top: .5rem;
+    color: var(--text);
+    font-family: "Roboto Thin", Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        flex-direction: column;
+    }
+
+    .left-column {
+        width: 100%;
+    }
+}
+
+* {
+    /* border: 1px solid lightslategray; */
+}
+
