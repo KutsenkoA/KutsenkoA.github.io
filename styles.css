@@ -13,6 +13,7 @@ ul {
 }
 
 .left-column {
+    max-width: 300px;
     background-color: #bab8b9;
     color: var(--text);
 }
@@ -98,7 +99,7 @@ ul {
     }
 
     .left-column {
-        width: 100%;
+        max-width: none;
     }
 }
 
