@@ -93,6 +93,11 @@ ul {
     font-family: "Roboto Thin", Tahoma, sans-serif;
 }
 
+.technologies {
+    margin-top: .5rem;
+    font-size: .8rem;
+}
+
 @media screen and (max-width: 500px) {
     body {
         flex-direction: column;
